@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculation Show</title>
+</head>
+<body>
+  <span>6+9 =</span> <span id="demo"></span>
+  <br>
+
+  <!-- <button type="button" onclick="document.write(6+9)">Calculate</button> -->
+  <button type="button" onclick="calculate()">Calculate</button>
+
+  <script>
+    function calculate(){
+      document.getElementById('demo').innerText = (6+9);
+    }
+  </script>
+</body>
+</html>
